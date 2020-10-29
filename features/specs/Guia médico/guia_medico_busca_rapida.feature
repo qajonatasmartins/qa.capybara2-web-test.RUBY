@@ -6,7 +6,7 @@ Eu como cliente da Unimed
 Quero encontrar médicos, clínicas, laboratórios, hospitais ou parceiros
 Para verificar se o plano de saúde é atendido no estabelecimento
 
-@fulltest
+@FullTest
 Esquema do Cenario: Busca rápida por médicos do Rio de Janeiro
         Dado que acesso o guia médico
         Quando realizo uma busca pelo médico <nome_medico> do Rio de Janeiro
@@ -17,7 +17,7 @@ Exemplos:
 |nome_medico|
 |"medico_01"|
 
-@Teste01
+@FullTest
 Esquema do Cenario: Busca rápida por médicos do Rio de Janeiro
         Dado que acesso o guia médico
         Quando realizo uma busca pelo médico <nome_medico> do Rio de Janeiro
