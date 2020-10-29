@@ -18,7 +18,7 @@ Exemplos:
 |"medico_01"|
 
 @FullTest
-Esquema do Cenario: Busca rápida por médicos do Rio de Janeiro
+Esquema do Cenario: Busca rápida - Não deve visualizar a cidade de São Paulo
         Dado que acesso o guia médico
         Quando realizo uma busca pelo médico <nome_medico> do Rio de Janeiro
         Entao NÃO devo visualizar resultados com a cidade São Paulo
