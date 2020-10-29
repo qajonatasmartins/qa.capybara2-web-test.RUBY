@@ -1,0 +1,12 @@
+---
+default: -p bdd -p json
+#default: -p bdd -p html
+bdd: --format pretty #para mostrar as informações no DOS(tela preta)
+dot: --format progress #Tras em pontinhos
+html: --format html --out=log/report.html
+json: --format json --out=log/report.json
+chrome: -p dot BROWSER=chrome
+firefox: -p dot BROWSER=firefox
+#Roda como serviço sem levantar o navegador
+chrome_headless: -p dot BROWSER=chrome_headless
+firefox_headless: -p dot BROWSER=firefox_headless
