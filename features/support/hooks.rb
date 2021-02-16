@@ -35,7 +35,7 @@ at_exit do
     config.input_path = "log/report.json"
     config.report_path = "log/report"
     config.report_types = [:html]
-    config.report_title = "Automação web - Noesis"
+    config.report_title = "Automação web ruby"
     config.compress_image = true
     config.additional_info = {
       "Aplicação: " => "Web",
