@@ -31,7 +31,7 @@ https://chromedriver.chromium.org/downloads
 **Nome do arquivo a ser baixado:** "chromedriver_win32.zip"
  
 **7 º Passo:** Após baixar o chromedriver, crie uma pasta com o nome 'Driver' dentro da raiz do projeto. Descompacte o arquivo chrome driver baixado no **passo 6** na pasta criada.
-**Diretório de exemplo:** 'C:\automacao-web-noesis-master\Driver'
+**Diretório de exemplo:** 'C:\automacao-web-ruby\Driver'
 Informe o diretório nas variáveis de ambiente do windows, para isso, siga o passo a passo abaixo:
  
 - Clique menu iniciar e pesquise 'variáveis';
@@ -40,13 +40,13 @@ Informe o diretório nas variáveis de ambiente do windows, para isso, siga o pa
 - Nas variáveis de **Sistema** e do **Usuário**, edite a variável com o nome '**Path**';
 - Clique em [Novo]
 - Cole o diretório da pasta **driver** criada.
-**Exemplo:** C:\automacao-web-noesis-master\Driver
+**Exemplo:** C:\automacao-web-ruby\Driver
 - Clique em [OK] >> [OK].
  
 **8 º Passo:** Abra pelo Visual Code o projeto de automação;
  
 **9 º Passo:** Abra o Cmder e navegue até o diretório raiz do projeto;
-C:\automacao-web-noesis-master
+C:\automacao-web-ruby
 
 **10 º Passo:** Digite o comando 'gem install bundler'
 **Obs.:** Caso o cmder não reconheça o comando, feche e abra novamente o Cmder.
@@ -56,4 +56,4 @@ Após o primeiro comando 'gem install bundler', digite o "bundle update --bundle
  
 **12 º Passo:** Com todas as configurações corretas, basta somente executar o comando "rake specs["-t @FullTest","-p chrome"]" no **Cmder**.
  
-Ao final da execução do teste é gerado na pasta log(C:\automacao-web-noesis-master\log) o arquivo "Report.html" com as evidências dos testes.
+Ao final da execução do teste é gerado na pasta log(C:\automacao-web-ruby\log) o arquivo "Report.html" com as evidências dos testes.
